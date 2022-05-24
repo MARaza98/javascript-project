@@ -12,6 +12,11 @@ if ((input.includes("html") || input.includes("css")) && input.includes("javascr
             alert("sorry other cityz are not allowed")
         }
     } else {
+        if (city === "karachi") {
+
+        } else {
+            alert("sorry other cityz are not allowed")
+        }
         alert("you are not under age")
     }
 } else {
