@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    background: black;
+
+}
+div{
+    background-color: #dcdcdc;
+    width: 1300px;
+    margin: 26px 0 0 160px;
+}
+.ali{
+    margin: 0;
+}
+.ahmed{
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    background-color: #474747;
+    text-align: center;
+}
+li{
+    padding: 20px 0;
+    display: inline-block;
+}
+a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.8s ease;
+    padding: 15px 20px 15px 20px;
+}
+a:hover {
+    color: white;
+    background: aqua;
+    transition: all 0.8s ease;
+}
+h2{
+    text-align: center;
+
+}
+.demo{
+    float: right;
+    padding: 15px 0 0 0;
+
+}
+p{
+    margin: 40px 180px 0 0;
+    text-align: center;
+}
+.muz{
+    width: 150px;
+    margin: 0 0 20px 210px;
+}
+.zee{
+    float: bottom;
+    text-align: center;
+    color: white;
+    background: black;
+    padding: 50px;
+    margin: 0;
+}
+.zee button{
+    width: 30%;
+}
+button{
+    background: #ff6b00;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 15px 5px 15px;
+    cursor: pointer;
+}
