@@ -1,0 +1,312 @@
+body{
+    margin: 0;
+}
+.background-color-header{
+
+}
+.section{
+    background-color: #87509c;
+    width: 100%;
+}
+.container{
+    width: 1040px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    width: 1038px;
+    padding: 50px 0;
+ }
+.logo{
+    margin-left: 10px;
+    width: 830px;
+    height: 98px;
+}
+.topnav{
+    display: none;
+}
+.links {
+    width: 600px;
+    height: 92px;
+}
+.links ul{
+    display: flex;
+}
+.links li{
+    list-style: none;
+}
+.links a{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+}
+.paragraf{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.paragraf p{
+    color: white;
+    margin-top: 0;
+}
+.links a:hover{
+    background: #643a79;
+    color: whitesmoke;
+    transition: all 0.8s ease;
+    padding: 20px;
+}
+.paragraf p{
+    font-size: 40px;
+}
+button{
+    padding: 10px 50px;
+    background-color: #eb7d4b;
+    border: none;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 10px;
+    border: 2px solid #eb7d4b;
+}
+button:hover{
+    background-color: #cc6647;
+}
+
+.section-services{
+    background-color: #17c2a4;
+    width: 100%;
+}
+.top-heading{
+    text-align: center;
+}
+.top-heading h3{
+    font-family: 'Titillium Web', sans-serif;
+    margin-top: 0;
+    color: white;
+    padding-top: 50px;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.top-heading p{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
+    color: white;
+}
+.top-heading hr{
+    width: 50px;
+    background-color: #14a58c;
+    height: 3px;
+    border: none;
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 30px;
+
+}
+.box-one{
+    color: white;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+}
+.box-one p{
+    font-weight: 100;
+    font-size: 13px;
+}
+.box-one img:hover{
+    padding: 10px;
+    transition: all 0.8s ease;
+}
+.section-team{
+    background-color: #e7f1f8;
+    width: 100%;
+}
+.top-heading-team h3{
+    color: #3c4761;
+    font-family: 'Titillium Web', sans-serif;
+    margin-top: 0;
+    padding-top: 50px;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.top-heading-team p{
+    color: #535e75;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
+}
+.top-heading-team{
+    text-align: center;
+}
+.top-heading-team hr{
+    width: 50px;
+    background-color: #c8d9e5;
+    height: 3px;
+    border: none;
+}
+.box-base{
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    color: #27283d;
+}
+.box-base p{
+    color: #535e75;
+}
+.box-base h6{
+    color: #30bae7;
+}
+.box-base img:hover{
+    padding: 10px;
+    transition: all 0.8s ease;
+}
+
+
+/*///////// medium media query /////////*/
+@media (min-width: 992px) and (max-width: 1199px){
+    .container{
+        width: 974px;
+    }
+    .header{
+        width: 974px;
+    }
+    .paragraf p{
+        font-size: 30px;
+    }
+    .box-one{
+        width: 80%;
+    }
+    .box-one p{
+        font-size: 10px;
+    }
+    .box-base img{
+        width: 80%;
+    }
+    .box-base p{
+        font-size: 10px;
+    }
+    .topnav{
+        display: none;
+    }
+}
+/*///////// small media query /////////*/
+@media (min-width: 768px) and (max-width: 991px){
+    .container{
+        width: 751px;
+        margin: 0;
+    }
+    .topnav{
+        display: none;
+    }
+
+    .header{
+        width: 746px;
+    }
+    .logo{
+        width: 690px;
+    }
+    .paragraf p{
+        font-size: 25px;
+    }
+    .box-one{
+        width: 70%;
+    }
+    .box-one p{
+        font-size: 10px;
+    }
+    .box-base img{
+        width: 70%;
+    }
+    .box-base p{
+        font-size: 10px;
+    }
+}
+
+/*///////// extra small media query /////////*/
+@media (min-width: 320px) and (max-width: 767px){
+    .container{
+        width: 303px;
+    }
+    .header{
+        width: 303px;
+    }
+    .paragraf p{
+        font-size: 13px;
+    }
+    .top-heading h3{
+        font-size: 25px;
+    }
+    .top-heading p{
+        font-size: 8px;
+    }
+    .boxes{
+        display: block;
+    }
+    .box-one{
+        padding-bottom: 15px;
+    }
+    .top-heading-team h3{
+        font-size: 20px;
+    }
+    .top-heading-team p{
+        font-size: 8px;
+    }
+    .box-base{
+        padding-bottom: 15px;
+    }
+    .topnav{
+        display: block;
+        overflow: hidden;
+        width: 295px;
+        position: absolute;
+
+    }
+    .links{
+        display: none;
+    }
+}
+
+
+
+
+.topnav a {
+    float: right;
+    display: block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: #bfbfbf;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {
+        position: fixed;
+    }
+
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+
+    }
+}
