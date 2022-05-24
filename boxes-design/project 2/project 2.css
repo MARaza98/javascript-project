@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+}
+.con{
+    background-color: black;
+    margin: 0;
+    padding: 10px 0;
+
+}
+ul{
+    margin: 0;
+    display: flex;
+    font-variant-caps: all-small-caps;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin: 0 0 0 6px;
+    /*border-left: 2px solid;*/
+}
+li{
+    list-style: none;
+}
+.b{
+    width: 1349px;
+
+}
+.right-side{
+    margin-left: auto;
+    color: white;
+    background-color: black;
+    border: none;
+}
+.right{
+    color: white;
+    background-color: black;
+    border: none;
+    margin: 0 15px 0 0;
+}
+.con1{
+    background-color: white;
+    display: flex;
+    padding: 20px;
+}
+.raz{
+    padding: 36px 0 0 0;
+    text-align: center;
+    color: black;
+    margin: 0 auto;
+}
+.rah{
+    object-fit: contain;
+    margin: 0 20px 0 0;
+}
+.bottom{
+    box-sizing: border-box;
+    margin: 0 20px 0 0;
+    text-decoration: none;
+    color: black;
+    font-size: xx-large;
+}
+h1{
+    font-size: -webkit-xxx-large;
+    position: absolute;
+    color: white;
+    margin: 100px 0 0 40px;
+}
+p{
+    position: absolute;
+    color: white;
+    margin: 216px 0 0 40px;
+
+}
+button{
+    position: absolute;
+    color: white;
+    border: 2px solid gray;
+    background-color: transparent;
+    margin: 280px 0 0 40px;
+    padding: 8px 20px;
+}
+button:hover{
+    background-color: red;
+    color: white;
+}
+.bottom:hover{
+    background-color: black;
+    color: white;
+}
+.left-side:hover{
+    background-color: red;
+    color: white;
+}
+.right-side:hover{
+    background-color: red;
+    color: white;
+}
+.right:hover{
+    background-color: red;
+    color: white;
+}

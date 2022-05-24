@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fc85424a-4337-4359-ace8-e83164ded7fb" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="boxes-design" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1SV59sdqKAKCNpXqQsb11iINKsK" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="FullScreen" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WebstormProjects/first-project" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\boxes-design\project 2" />
+      <recent name="D:\boxes-design\project" />
+      <recent name="D:\boxes-design\images\img" />
+      <recent name="D:\boxes-design\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Ahmed Works\boxes-design\images" />
+      <recent name="D:\Ahmed Works\boxes-design\images\img" />
+      <recent name="D:\boxes-design\images" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc85424a-4337-4359-ace8-e83164ded7fb" name="Default Changelist" comment="" />
+      <created>1571635773521</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571635773521</updated>
+      <workItem from="1571635774812" duration="6053000" />
+      <workItem from="1571683657338" duration="878000" />
+      <workItem from="1571716342972" duration="12607000" />
+      <workItem from="1571756776996" duration="711000" />
+      <workItem from="1571803430558" duration="6436000" />
+      <workItem from="1571842008441" duration="8553000" />
+      <workItem from="1571859553328" duration="867000" />
+      <workItem from="1571890422168" duration="4845000" />
+      <workItem from="1572019538946" duration="7242000" />
+      <workItem from="1572157553357" duration="4358000" />
+      <workItem from="1572239917777" duration="12405000" />
+      <workItem from="1572262304225" duration="17186000" />
+      <workItem from="1572321714641" duration="3607000" />
+      <workItem from="1582960612021" duration="681000" />
+      <workItem from="1582962144340" duration="330000" />
+      <workItem from="1584039975428" duration="866000" />
+      <workItem from="1584116355650" duration="3521000" />
+      <workItem from="1584195699245" duration="653000" />
+      <workItem from="1584292954062" duration="642000" />
+      <workItem from="1584337446747" duration="675000" />
+      <workItem from="1584511834199" duration="1133000" />
+      <workItem from="1584558890555" duration="713000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+</project>
