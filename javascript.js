@@ -141,9 +141,9 @@
 // document.write("<br>");
 // document.write("Total cost of your order is :  " + " --------- " + totalCost + "PKR");
 
-// Question 8
-var totalMarks = 980;
-var obtMarks = 804;
-var per = obtMarks / totalMarks * 100;
+// // Question 8
+// var totalMarks = 980;
+// var obtMarks = 804;
+// var per = obtMarks / totalMarks * 100;
 
-document.write("Total Marks : " + totalMarks + "<br>Obtained Marks : " + obtMarks + "<br>Percentage : " + per + "%");
+// document.write("Total Marks : " + totalMarks + "<br>Obtained Marks : " + obtMarks + "<br>Percentage : " + per + "%");
