@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+
+}
+
+.muz{
+    background: #009595;
+    padding: 20px;
+}
+.ali{
+    float: right;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+}
+span{
+    margin: 10px 2px 0 0;
+    color: #dedede;
+
+}
+h4{
+    color: gray;
+    border-bottom-style: ridge;
+
+}
+.zee {
+    width: 20%;
+    background: white;
+    border-right: 2px solid gray;
+    padding: 20px;
+    display: inline-block;
+    height: calc(100vh - 171px);
+}
+form{
+    width: 30%;
+    border: 1px solid gray;
+    display: inline-block;
+    padding: 15px;
+
+
+}
+.hide{
+    width: 80%;
+    margin: 0 15px;
+}
+.raz{
+    float: right;
+    background: #009595;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border: none;
+
+}
+button:hover{
+    background-color: red;
+    color: white;
+}
+.left{
+    color: #ffffff;
+    margin: 10px 15px 0 0;
+
+}
+
+.parent{
+    display: flex;
+}
+.demo{
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: space-between;
+}
+.demo input {
+    border: 0;
+    outline: none;
+    border-bottom: 1px solid gray;
+}
+h1{
+    -webkit-text-stroke: thin;
+
+
+}
+.day{
+    float: bottom;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background: gray;
+}
+label{
+    -webkit-text-stroke-width: medium;
+
+}
+.ali img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
