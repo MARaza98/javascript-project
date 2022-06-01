@@ -137,7 +137,7 @@
 //   alert("Secret number is "+ num +" and your number is "+ guest + " Sorry !! Next Try")
 // }
 
-// answer 8
+// // answer 8
 
 // var number = prompt("please Enter your any number and check result divide by 3")
 // var divisible = 3
@@ -344,6 +344,11 @@
 //     var stdScroes = [450, 340, 380];
 
 //     var perofStd1 = stdScroes[0] / 500 * 100;
+
+
+
+
+
 //     var perofStd2 = stdScroes[1] / 500 * 100;
 //     var perofStd3 = stdScroes[2] / 500 * 100;
 
@@ -357,7 +362,6 @@
 
 //     var colors = ["red", "green", "blue"];
 //     document.write(colors);
-//     document.write('<h2 style="text-align:center;"><a href="index.html">Back</a></h2>');
 
 // // answer 9a
 
@@ -365,7 +369,6 @@
 //     var colors = ["red", "green", "blue"];
 //     var Addedcolor = colors.unshift(colorInput);
 //     document.write(colors);
-//     document.write('<h2 style="text-align:center;"><a href="index.html">Back</a></h2>');
 
 // // answer 9b
 
@@ -373,7 +376,6 @@
 //     var colors = ["red", "green", "blue"];
 //     var Addedcolor = colors.push(colorInput);
 //     document.write(colors);
-//     document.write('<h2 style="text-align:center;"><a href="index.html">Back</a></h2>');
 
 // // answer 9c
 
@@ -383,7 +385,6 @@
 //     var colors = ["red", "green", "blue"];
 //     var Addedcolor = colors.unshift(colorInput1, colorInput2);
 //     document.write(colors);
-//     document.write('<h2 style="text-align:center;"><a href="index.html">Back</a></h2>');
 
 // //  answer 9d
 
@@ -392,7 +393,6 @@
 //     var colors = ["red", "green", "blue"];
 //     var Addedcolor = colors.shift(colorInput);
 //     document.write(colors);
-//     document.write('<h2 style="text-align:center;"><a href="index.html">Back</a></h2>');
 
 // // answer 9e
 
@@ -401,7 +401,6 @@
 //     var indexNumber = +prompt("which color do you want to add on that index? ");
 //     colors.splice(indexNumber, 0, colorInput);
 //     document.write(colors);
-//     document.write('<h2 style="text-align:center;"><a href="index.html">Back</a></h2>');
 
 // // answer 9f
 
@@ -422,7 +421,6 @@
 //     var sortedScores = studentScores.sort()
 
 //     document.write("Ordered Scores of Students :  " + studentScores);
-//     document.write('<h2 style="text-align:center;"><a href="index.html">Back</a></h2>');
 
 
 // // answer 10 
@@ -432,7 +430,6 @@
 
 //     document.write("Cities List  : <br> " + citiesArray + "<br>");
 //     document.write("Cities List  : <br> " + selectedCities);
-//     document.write('<h2 style="text-align:center;"><a href="index.html">Back</a></h2>');
 
 // // answer 11
 
@@ -444,7 +441,6 @@
 
 //     document.write("<h1>String: </h1>");
 //     document.write(`<h1>${joined}</h1><br>`);
-//     document.write('<h2 style="text-align:center;"><a href="index.html">Back</a></h2>');
 
 // // answer 12
 
@@ -464,8 +460,6 @@
 //     var fourthDevice = acc.shift();
 //     document.write(`<h2>Out: <br>  ${fourthDevice}</h2>`);
 
-//     document.write('<h2 style="text-align:center;"><a href="index.html">Back</a></h2>');
-
 // // answer 13
 
 //     var acc = ["Keyboard","mouse","printer","monitor"];
@@ -474,6 +468,7 @@
 
 //     var firstDevice = acc.pop();
 //     document.write(`<h2>Out: <br>  ${firstDevice}</h2>`);
+
 
 //     var secDevice = acc.pop();
 //     document.write(`<h2>Out: <br>  ${secDevice}</h2>`);
@@ -526,7 +521,3 @@
 //             }
 //         </style>
 //     `)
-
-  
-
-
