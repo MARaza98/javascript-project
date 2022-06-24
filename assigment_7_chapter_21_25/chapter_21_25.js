@@ -111,9 +111,93 @@
 
 // answer 15
 
+// var pass = prompt("Enter your password");
+// var a = [
+//   "A",
+//   "B",
+//   "C",
+//   "D",
+//   "E",
+//   "F",
+//   "G",
+//   "H",
+//   "I",
+//   "J",
+//   "K",
+//   "L",
+//   "M",
+//   "N",
+//   "O",
+//   "P",
+//   "Q",
+//   "R",
+//   "S",
+//   "T",
+//   "U",
+//   "V",
+//   "W",
+//   "X",
+//   "Y",
+//   "Z",
+// ];
+// var b = [
+//   "a",
+//   "b",
+//   "c",
+//   "d",
+//   "e",
+//   "f",
+//   "g",
+//   "h",
+//   "i",
+//   "j",
+//   "k",
+//   "l",
+//   "m",
+//   "n",
+//   "o",
+//   "p",
+//   "q",
+//   "r",
+//   "s",
+//   "t",
+//   "u",
+//   "v",
+//   "w",
+//   "x",
+//   "y",
+//   "z",
+// ];
+// var c = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
 
+// var isNumber = false;
+// var isAlpha = false;
+// var isInvalid = false;
 
-
+// if (c.indexOf(pass[0]) !== -1) {
+//     alert("Number is not allowed on index 0")
+// }
+// else if(pass.length < 6){
+//     alert("Password should be at leasat 6")
+// }
+//  else {
+//   for(var i = 0; i < pass.length; i++){
+//       if(a.indexOf(pass[i]) !== -1){
+//         isAlpha = true
+//       }else if(b.indexOf(pass[i]) !== -1){
+//         isAlpha = true
+//       }else if(c.indexOf(pass[i]) !== -1){
+//         isNumber = true
+//       }else{
+//         isInvalid = true
+//       }
+//   }
+//   if(isAlpha && isNumber && !isInvalid){
+//     alert("Correct password")
+//   }else{
+//     alert("Password is Wrong / Special charactors are not allowed")
+//   }
+// }
 
 // // answer 16
 
