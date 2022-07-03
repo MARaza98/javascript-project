@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+}
+.background_img{
+    background-image: url("images/gallery/cycle.png");
+    height: 556px;
+    background-size: cover;
+}
+.First_logo{
+    padding: 40px 40px 0 80px;
+}
+.links ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+.links a:hover{
+    background-color: rgba(6, 210, 181, 0.93);
+    color: whitesmoke;
+    padding: 15px 5px;
+
+}
+.links{
+    float: right;
+}
+.links a{
+    text-decoration: none;
+    padding: 15px 5px;
+    color: white;
+    margin-right: 30px;
+
+}
+.links li{
+    padding: 15px 5px;
+}
+.links p{
+    color: white;
+    margin: 0;
+    padding-left: 12%;
+}
+.Active{
+    padding: 15px 5px;
+    color: white;
+    background-color: aquamarine;
+}
+.header h1{
+    text-align: center;
+    padding-top: 9%;
+    color: whitesmoke;
+    font-size: 77px;
+    font-weight: 400;
+    margin: 0;
+}
+.header p{
+    margin: 0;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 47px;
+    font-weight: 100;
+}
+.second_background{
+    padding-left: 5%;
+    width: 50%;
+    height: 600px;
+}
+.second_background h1{
+    font-size: 50px;
+    font-weight: 100;
+}
+.background_img_two{
+    display: flex;
+}
+.third_background{
+    width: 49%;
+    height: 600px;
+    padding-top: 14%;
+}
+.second_background .form_button{
+    border: none;
+    padding: 15px 30px;
+    background-color: #660e80;
+    cursor: pointer;
+    color: whitesmoke;
+    font-size: 15px;
+}
+.xyz input{
+    padding: 2% 15%;
+}
+span b{
+    font-size: 35px;
+    padding-left: 11px;
+}
+.last_div{
+    background-image: url("images/home/cycle_img.png");
+    background-size: cover;
+    height: 474px;
+}
+.heading_two{
+    text-align: center;
+    padding-top: 5%;
+}
+.heading_two p{
+    color: aqua;
+    font-size: 35px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+.heading_two span{
+    color: white;
+    font-size: 20px;
+    margin-top: 0;
+}
+.heading_two form{
+    padding-top: 5%;
+}
+.heading_two input{
+    height: 35px;
+    border-radius: 2px;
+    border: none;
+    padding: 0 6%;
+}
+.heading_two .yz{
+    padding: 4px 45px;
+    background-color: #15ff1c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    margin-left: 15px;
+    border-radius: 2px;
+}
+.last_logo{
+    padding-top: 10%;
+    padding-left: 3%;
+}
+.links p{
+    color: white;
+    margin: 0;
+    padding-left: 12%;
+}

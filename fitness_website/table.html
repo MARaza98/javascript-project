@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>table</title>
+</head>
+<body>
+<div class="table">
+    <p id="pr">
+
+    </p>
+    <button onclick="loops();">click hear</button>
+</div>
+
+
+<script>
+    var usrvalue =prompt("Enter Any Value");
+     function loops() {
+         var num;
+         var text="";
+
+         for (num = 1;num<=10;num++)
+         {
+             var result = num * parseInt(usrvalue);
+             text += num + "*" + usrvalue + "=" +result + "<br>";
+         }
+         document.getElementById('pr').innerHTML =text;
+     }
+</script>
+</body>
+</html>

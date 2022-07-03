@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+}
+
+.bg {
+    background-image: url("images/gallery/cycle.png");
+    height: 556px;
+    background-size: cover;
+}
+
+.logo {
+    padding: 40px 40px 0 80px;
+}
+
+.login {
+    float: right;
+}
+
+.newPassword {
+    float: right;
+    margin-top: 25px;
+    display: none;
+}
+
+.newPassword label {
+    color: white;
+    font-size: 25px;
+}
+
+.newPassword input {
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    padding: 0 15px;
+}
+
+.newPassword button {
+    padding: 10px 40px;
+    margin-left: 10px;
+    color: white;
+    margin-top: 2px;
+    border-radius: 22px;
+    font-size: 10px;
+    background-color: #535cff;
+    cursor: pointer
+}
+
+a {
+    float: right;
+    text-decoration: none;
+    color: white;
+    margin-top: 7px;
+}
+
+.Email_Password label {
+    font-size: 30px;
+    color: white;
+}
+
+.Email_Password input {
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    padding: 0 15px;
+}
+
+.Email_Password button {
+    padding: 10px 40px;
+    margin-left: 10px;
+    color: white;
+    margin-top: 10px;
+    border-radius: 22px;
+    font-size: 10px;
+    background-color: #535cff;
+    cursor: pointer;
+}
+
+.bg_two {
+    background-image: url("images/home/men.png");
+    background-size: cover;
+    height: 950px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1170px;
+}
+
+.Create_an_account h1 {
+    margin-top: 0;
+    padding-top: 30px;
+    font-size: 60px;
+    color: rgba(168, 255, 73, 0.95);
+}
+
+.Create_an_account form {
+    float: right;
+    font-size: 30px;
+}
+
+.input {
+    height: 30px;
+    width: 35%;
+    padding: 0 20px;
+    border-radius: 5px;
+}
+
+button {
+    float: right;
+    padding: 15px 70px;
+    background-color: #008010a6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    border-radius: 8px;
+}
+
+.bg_three {
+    background-image: url("images/home/cycle_img.png");
+    background-size: cover;
+    height: 463px;
+}
+
+.Bottom_logo img {
+    float: bottom;
+}
+
+.last_logo_two {
+    padding: 27% 0 0 2%;
+}

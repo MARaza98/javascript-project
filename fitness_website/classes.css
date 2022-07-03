@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+}
+.background_img{
+    background-image: url("images/gallery/cycle.png");
+    height: 556px;
+    background-size: cover;
+}
+.First_logo{
+    padding: 40px 40px 0 80px;
+}
+.links ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+.links a:hover{
+    background-color: rgba(6, 210, 181, 0.93);
+    color: whitesmoke;
+    padding: 15px 5px;
+
+}
+.links{
+    float: right;
+}
+.links a{
+    text-decoration: none;
+    padding: 15px 5px;
+    color: white;
+    margin-right: 30px;
+
+}
+.links li{
+    padding: 15px 5px;
+}
+.links p{
+    color: white;
+    margin: 0;
+    padding-left: 12%;
+}
+.Active{
+    padding: 15px 5px;
+    color: white;
+    background-color: aquamarine;
+}
+.header h1{
+    text-align: center;
+    padding-top: 9%;
+    color: whitesmoke;
+    font-size: 77px;
+    font-weight: 400;
+    margin: 0;
+}
+.header p{
+    margin: 0;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 47px;
+    font-weight: 100;
+}
+.container{
+    margin: 0 auto;
+    width: 1170px;
+    height: 800px;
+}
+.fitness_classes h2{
+    padding: 4% 0;
+    margin: 0;
+    font-size: 60px;
+    font-weight: 500;
+    color: #80808075;
+}
+.timing_box{
+    width: 60%;
+    padding: 5%;
+    border: 1px solid #00000054;
+}
+.timing_box p{
+    font-size: 23px;
+}
+.timing_box h3{
+    font-size: 35px;
+    margin-top: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.display{
+    display: flex;
+}
+.timing_box_two{
+    width: 39%;
+    font-size: 20px;
+    padding: 9% 5% 5% 5%;
+    border-top: 1px solid #00000054;
+    border-right: 1px solid #00000054;
+    border-bottom: 1px solid #00000054;
+}
+.last_div{
+    background-image: url("images/home/cycle_img.png");
+    background-size: cover;
+    height: 474px;
+}
+.heading_two{
+    text-align: center;
+    padding-top: 5%;
+}
+.heading_two p{
+    color: aqua;
+    font-size: 35px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+.heading_two span{
+    color: white;
+    font-size: 20px;
+    margin-top: 0;
+}
+.heading_two form{
+    padding-top: 5%;
+}
+.heading_two input{
+    height: 35px;
+    border-radius: 2px;
+    border: none;
+    padding: 0 6%;
+}
+.heading_two .yz{
+    padding: 4px 45px;
+    background-color: #15ff1c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    margin-left: 15px;
+    border-radius: 2px;
+}
+.last_logo{
+    padding-top: 10%;
+    padding-left: 3%;
+}
+.links p{
+    color: white;
+    margin: 0;
+    padding-left: 12%;
+}

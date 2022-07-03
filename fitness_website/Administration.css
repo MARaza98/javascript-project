@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+}
+.background_img{
+    background-image: url("images/gallery/cycle.png");
+    height: 556px;
+    background-size: cover;
+}
+.First_logo{
+    padding: 40px 40px 0 80px;
+}
+.header h1{
+    font-size: 80px;
+    color: whitesmoke;
+    padding-top: 10%;
+    text-align: center;
+}
+.links ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+.links a:hover{
+    background-color: rgba(6, 210, 181, 0.93);
+    color: whitesmoke;
+    padding: 15px 5px;
+
+}
+.links{
+    float: right;
+}
+.links a{
+    text-decoration: none;
+    padding: 15px 5px;
+    color: white;
+    margin-right: 30px;
+
+}
+.links li{
+    padding: 15px 5px;
+}
+.links p{
+    color: white;
+    margin: 0;
+    padding-left: 12%;
+}
+.Active{
+    padding: 15px 5px;
+    color: white;
+    background-color: aquamarine;
+}
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 620px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 10px;
+}
+
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+
+.flip-card-back {
+    background-color: black;
+    color: white;
+    transform: rotateY(180deg);
+}
+.flip-card-front img{
+    width: 300px;
+    height: 620px;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+.display_flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 20% 13%;
+    background-image: url("images/home/men.png");
+    background-size: cover;
+    height: 602px;
+}
+.Ceo{
+    margin-top: 0;
+    text-align: center;
+}
+.last_div{
+    background-image: url("images/home/cycle_img.png");
+    background-size: cover;
+    height: 474px;
+}
+.heading_two{
+    text-align: center;
+    padding-top: 5%;
+}
+.heading_two p{
+    color: aqua;
+    font-size: 35px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+.heading_two span{
+    color: white;
+    font-size: 20px;
+    margin-top: 0;
+}
+.heading_two form{
+    padding-top: 5%;
+}
+.heading_two input{
+    height: 35px;
+    border-radius: 2px;
+    border: none;
+    padding: 0 6%;
+}
+.heading_two .yz{
+    padding: 4px 45px;
+    background-color: #15ff1c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    margin-left: 15px;
+    border-radius: 2px;
+}
+.last_logo{
+    padding-top: 10%;
+    padding-left: 3%;
+}
+.links p{
+    color: white;
+    margin: 0;
+    padding-left: 12%;
+}

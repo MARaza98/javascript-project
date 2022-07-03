@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fitnez_Home</title>
+    <link rel="stylesheet" href="fitnez.css">
+</head>
+<body>
+<div class="bg">
+    <div class="logo">
+        <img src="images/home/logo.png">
+        <div class="login">
+            <div class="Email_Password">
+                <label for="Top_Email">Email :</label>
+                <input type="email" name="Email" id="Top_Email" required autocomplete="off">
+                <label for="Top_Password">Password :</label>
+                <input type="password" name="Password" id="Top_Password" required autocomplete="off">
+                <button type="submit" id="loginBtn">Login</button>
+            </div>
+            <a onmouseenter="toggleForgotPasswordContainer()" id="forget">Forget Password</a>
+            <div class="newPassword" id="forgotPasswordContainer">
+                <label for="new_Password">New Password :</label>
+                <input type="password" name="New_password" id="new_Password" required autocomplete="off">
+                <button type="submit" id="new_Password_btn">Create</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bg_two">
+    <div class="container">
+        <div class="Create_an_account">
+            <h1>
+                Create An Account
+            </h1>
+            <form method="post" action="Home.html">
+                <input class="input" type="text" name="First name" placeholder="First Name" required autocomplete="off">
+                <input class="input" type="text" name="Surname" placeholder="SurName" required
+                       autocomplete="off"><br><br>
+                <input class="input" type="email" name="Email address" placeholder="Email Address" required
+                       autocomplete="off"><br><br>
+                <input class="input" type="password" name="Password" placeholder="Password" required autocomplete="off"><br><br>
+                <label for="Birthday">Birthday</label>
+                <input class="input" type="date" name="Birthday" id="Birthday" required autocomplete="off">
+                <label for="Age"></label>
+                <input class="input" type="text" name="Age" id="Age" placeholder="Enter Your Age" required
+                       autocomplete="off"><br><br>
+                <label>Gender</label><br><br>
+                <input type="radio" name="sex" required="" autocomplete="off">
+                <label>Female</label>
+                <input type="radio" name="sex" required="" autocomplete="off">
+                <label>Male</label>
+                <input type="radio" name="sex" required="" autocomplete="off">
+                <label>Other</label><br><br>
+                <p>
+                    By clicking Sign Up, you agree to our Terms, Data Policy and<br>
+                    Cookie Policy. You may receive SMS notifications from us and<br>
+                    can opt out at any time.
+                </p>
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="bg_three">
+    <div class="last_logo_two">
+        <img src="images/home/logo.png">
+    </div>
+</div>
+<script>
+    var correctEmail = "ahmed@gmail.com";
+    var correctPassword = ["123","456","789"];
+
+
+    function toggleForgotPasswordContainer() {
+        var x = document.getElementById("forgotPasswordContainer");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+
+    document.getElementById("loginBtn").addEventListener("click", function () {
+        var email = document.getElementById("Top_Email").value;
+        var password = document.getElementById("Top_Password").value;
+        if (email === correctEmail ) {
+            alert("you Are Sign In");
+            window.location.href = "home.html"
+        } else {
+            alert("Incorrect email & Password")
+        }
+    });
+
+    document.getElementById("new_Password_btn").addEventListener("click", function (){
+        correctPassword = document.getElementById("new_Password").value;
+        alert("password has been changed");
+    });
+</script>
+</body>
+</html>
