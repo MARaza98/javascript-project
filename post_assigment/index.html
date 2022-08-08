@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="post_assigment.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+</head>
+<body>
+    <div class="body_area">
+        <div class="body_inner">
+            <textarea  id="textArea" cols="20" rows="10" placeholder="What's on your mind?"></textarea>
+
+        </div>
+    </div>
+
+    <div class="colors">
+        <div class="main_color">
+            <img onclick="showBackground();" class="main_class" src="img/coors.png" alt="">
+
+        </div>
+        <div class="colorslist" id="colorlist">
+            <ul>
+                <li><img src="img/color0.jpg" style="border: 1px solid #ddd" alt="" id="im0" onclick="changeColor(id);" ></li>
+                <li><img src="img/color1.jpg" alt="" id="im1" onclick="changeColor(id);" ></li>
+                <li><img src="img/color2.jpg" alt="" id="im2" onclick="changeColor(id)" ></li>
+                <li><img src="img/color3.jpg" alt="" id="im3"  onclick="changeColor(id);"></li>
+                <li><img src="img/color4.jpg" alt="" id="im4"  onclick="changeColor(id);"></li>
+                <li><img src="img/color5.jpg" alt="" id="im5"  onclick="changeColor(id);"></li>
+                <li><img src="img/color6.jpg" alt="" id="im6"  onclick="changeColor(id);"></li>
+                <li><img src="img/color7.jpg" alt="" id="im7"  onclick="changeColor(id);"></li> 
+                <li><img src="img/color8.jpg" alt="" id="im8"  onclick="changeColor(id);"></li>
+                <li><img src="img/color9.jpg" alt="" id="im9"  onclick="changeColor(id);"></li>
+                <li><img src="img/color10.jpg" alt="" id="im10"  onclick="changeColor(id);"></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div id="postCreatoin">
+
+    </div>
+
+    <div class="post_button">
+        <button onclick ="submit()"> Post </button>
+    </div>
+    
+</div>
+</div>
+</div>
+
+<script src="post_assigment.js"></script>
+
+</body>
+</html>
