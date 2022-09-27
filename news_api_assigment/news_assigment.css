@@ -1,0 +1,16 @@
+.top_header .row{
+    background-color: black;
+    padding-top: 15px;
+}
+.social ul{
+    display: flex;
+    justify-content: space-evenly;
+    color: #54648b;
+    font-size: 25px;
+}
+li{
+    list-style-type: none;
+}
+li a{
+    color: #dfe6f191;
+}
