@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    padding-top: 15px;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    background-color: #0e2f5fc7;
+    height: 80px;
+}
+
+.head_img {
+    display: flex;
+    align-items: center;
+    width: 70px;
+    cursor: pointer;
+}
+
+.log_out_btn {
+    padding: 0 20px;
+}
+
+.log_out_btn button {
+    font-size: 15px;
+    color: black;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    background: #fff;
+    transition: .2s;
+}
+
+.log_out_btn button:hover{
+    background-color: #4469a099;
+    color: white;
+    border: 1px solid rgb(8, 0, 0);
+}
+
+.log_out_btn button:active {
+    opacity: .5;
+    transition: .2s;
+}

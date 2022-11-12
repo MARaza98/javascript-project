@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../images/W.L.I.School.png">
+    <title>W.L.I.School Quiz App</title>
+    <link rel="stylesheet" href="exam_sub.css">
+</head>
+
+<body>
+    <!-- NavBar -->
+    <nav class="hidden1">
+        <div class="head_img">
+            <a href="#">
+                <img width="70px" src="../images/W.L.I.School.png" alt="">
+            </a>
+        </div>
+        <div class="log_out_btn">
+            <button onclick="logOut()">Log Out</button>
+        </div>
+    </nav>
+
+    <!-- Main Exam option page -->
+    <div class="main hidden">
+        <div class="heading"></div>
+        <div class="quizes_box">
+            <div class="english_quiz quiz_box">
+                <div class="name">English</div>
+                <div class="subjects">2 Subjects</div>
+                <div class="join_btn">
+                    <button disabled onclick="joinQuiz('english','2','english')">Join</button>
+                </div>
+            </div>
+            <div class="math_quiz quiz_box">
+                <div class="name">Math</div>
+                <div class="subjects">2 Subjects</div>
+                <div class="join_btn">
+                    <button disabled onclick="joinQuiz('math','2','math')">Join</button>
+                </div>
+            </div>
+            <div class="sociology_quiz quiz_box">
+                <div class="name">Sociology</div>
+                <div class="subjects">3 Subjects</div>
+                <div class="join_btn">
+                    <button disabled onclick="joinQuiz('sociology','1','sociology')">Join</button>
+                </div>
+            </div>
+            <div class="islamic_sociology_quiz quiz_box">
+                <div class="name">Islamic sociology</div>
+                <div class="subjects">1 Subjects</div>
+                <div class="join_btn">
+                    <button onclick="joinQuiz('islamic_sociology','1','islamic_sociology')">Join</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="exam_sub.js"></script>
+</body>
+
+</html>
