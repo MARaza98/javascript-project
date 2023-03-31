@@ -169,16 +169,16 @@ function Registration() {
         }, 3000)
     }
     else {
-        array.push({"fname": fName,"Lname": lName})
-        localStorage.setItem("data",JSON.stringify(array))
-        // localStorage.setItem("arr",[{fName,lName,email,password}])
-        // localStorage.setItem("fname", fName)
-        // localStorage.setItem("lname", lName)
-        // localStorage.setItem("email", email)
-        // localStorage.setItem("password", password)
-        // // array.push(Obj) 
-        // localStorage.setItem("score", JSON.stringify([0]))
-        window.location.href = `exam_sub/exam_sub.html`
+        // array.push({"fname": fName,"Lname": lName})
+        // localStorage.setItem("data",JSON.stringify(array))
+        // // localStorage.setItem("arr",[{fName,lName,email,password}])
+        // // localStorage.setItem("fname", fName)
+        // // localStorage.setItem("lname", lName)
+        // // localStorage.setItem("email", email)
+        // // localStorage.setItem("password", password)
+        // // // array.push(Obj) 
+        // // localStorage.setItem("score", JSON.stringify([0]))
+        // window.location.href = `exam_sub/exam_sub.html`
     }
     // obj[fName.toLowerCase()] = {
     //     fname: fName,
