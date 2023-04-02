@@ -1,9 +1,7 @@
 import React from 'react';
 import {
-  CDBSidebar,
   CDBSidebarContent,
   CDBSidebarFooter,
-  CDBSidebarHeader,
   CDBSidebarMenu,
   CDBSidebarMenuItem,
 } from 'cdbreact';
@@ -11,39 +9,38 @@ import {
 
 const Sidebar = () => {
   return (
-    <div style={{boxShadow: '1px 2px 9px #817878'}}>
-      <CDBSidebar textColor="#333" backgroundColor="#FFFFFF">
-            <CDBSidebarMenuItem style={{font:'Lato',fontWeight:'800',fontSize:'35.48px',lineHeight:'42.58px'}}>LODGN</CDBSidebarMenuItem>
+    <div style={{boxShadow: '1px 2px 9px #817878',width:'260px',backgroundColor:'#FFFFFF'}}>
+   
+            <CDBSidebarMenuItem style={{fontWeight:'700',fontSize:'30px',lineHeight:'42px'}}>LODGN</CDBSidebarMenuItem>
 
         <CDBSidebarContent className="sidebar-content">
           <CDBSidebarMenu>
 
-            <CDBSidebarHeader>
-            <CDBSidebarMenuItem style={{color:'#72AA83',width:'231px',height:'70px',left:'29px',top:'884px'}} >Current requests</CDBSidebarMenuItem>
-            </CDBSidebarHeader>
-            <CDBSidebarHeader>
-            <CDBSidebarMenuItem style={{color:'#494949',width:'158px',height:'33px',left:'19px',top:'227px'}}>Ongoing stays</CDBSidebarMenuItem>
-            </CDBSidebarHeader>
-            <CDBSidebarHeader>
-            <CDBSidebarMenuItem style={{color:'#494949',width:'156px',height:'33px',left:'19px',top:'306px'}}>Previous stays</CDBSidebarMenuItem>
-            </CDBSidebarHeader>
-            <CDBSidebarHeader>
-            <CDBSidebarMenuItem style={{color:'#494949',height:'33px',left:'19px',top:'385px'}}>Reports</CDBSidebarMenuItem>
-            </CDBSidebarHeader>
+            
+            <CDBSidebarMenuItem style={{color:'#72AA83',width:'231px',height:'10%',left:'29px',top:'884px',fontWeight:'700'}} >Current requests</CDBSidebarMenuItem>
+            <CDBSidebarMenuItem style={{color:'#494949',width:'158px',height:'10%',left:'19px',top:'227px',fontWeight:'700'}}>Ongoing stays</CDBSidebarMenuItem>
+            <CDBSidebarMenuItem style={{color:'#494949',width:'156px',height:'33px',left:'19px',top:'306px',fontWeight:'700'}}>Previous stays</CDBSidebarMenuItem>
+            <CDBSidebarMenuItem style={{color:'#494949',height:'33px',left:'19px',top:'385px',fontWeight:'700'}}>Reports</CDBSidebarMenuItem>
 
           </CDBSidebarMenu>
         </CDBSidebarContent>
 
-        <CDBSidebarFooter style={{ textAlign: 'center',padding:'180px 0 0 0' }}>
-          <div style={{padding:'20px 5px'}}>
-            <button style={{width:'231px',height:'70px',top:'884px',left:'29px',borderRadius:'10px',
-            backgroundColor:'#69AC80',lineHeight:'33px',color:'#FFFFFF', fontWeight:'600',
-             fontSize:'22px',border:'none'}}>
+        <CDBSidebarFooter style={{ textAlign: 'center',paddingTop:'220px' }}>
+          <div>
+            <button style={{padding:'10px 45px',borderRadius:'10px',
+            backgroundColor:'#69AC80',lineHeight:'25px',color:'#FFFFFF', fontWeight:'600',
+             fontSize:'15px',border:'none'}}>
               Log-Out
             </button>
+            <div style={{fontSize:'15px',fontWeight:'600',paddingTop:'6px'}}>
+              Help-Desk:
+            </div>
+            <div style={{fontSize:'15px',fontWeight:'600'}}>
+              786-874 9988
+            </div>
           </div>
         </CDBSidebarFooter>
-      </CDBSidebar>
+   
     </div>
   );
 }

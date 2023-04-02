@@ -8,7 +8,7 @@ function App() {
     <Router>
     <div className="App" style={{display:'flex', backgroundColor:'#D9D9D9'}}>
       <Sidebar />
-    <div style={{padding:'80px 72px 0 50px'}}>
+    <div style={{padding:'30px 0 0 85px'}}>
     <h3 style={{fontSize:'28.56px',lineHeight:'42.83px',fontWeight:'600',
     font:'poppins',color:'#72AA83'}}>You currently have 3 requests</h3>
     <Requestscard />
