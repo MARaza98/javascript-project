@@ -7,16 +7,16 @@ function Requestscard() {
     <Card >
       <Card.Body >
       <TitleInfo />
-       <div style={{marginTop:'10px',border:'1px solid ',borderRadius:'50px', width:'560px',display:'flex'}}>
-        <div style={{borderRight:'1px solid'}}>
+       <div style={{marginTop:'10px',border:'1px solid #959595',borderRadius:'50px', width:'846px',display:'flex'}}>
+        <div style={{borderRight:'1px solid #959595'}}>
             <text style={{color:'#959595',backgroundColor:'#FDF307',borderStartStartRadius:'100px',
-            borderBottomLeftRadius:'100px',padding:'1px 50px',}}>RECEIVED</text>
+            borderBottomLeftRadius:'100px',padding:'1px 97px',}}>RECEIVED</text>
         </div>
-        <div style={{borderRight:'1px solid'}}>
-        <text style={{color:'#959595',padding:'0 50px',}}>NEGOTIATING</text>
+        <div style={{borderRight:'1px solid #959595'}}>
+        <text style={{color:'#959595',padding:'0 97px',}}>NEGOTIATING</text>
         </div>
         <div>
-        <text style={{color:'#959595',padding:'0 50px',}}>COMPLETED</text>
+        <text style={{color:'#959595',padding:'0 97px',}}>COMPLETED</text>
         </div>
         </div> 
       </Card.Body>

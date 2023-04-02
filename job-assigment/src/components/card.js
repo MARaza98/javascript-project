@@ -2,10 +2,11 @@ import React from 'react';
 import Card from 'react-bootstrap/Card';
 import vector from '../assest/Vector 1.png'
 import Holiday from '../assest/Holiday Inn.png'
-function Cards() {
+import RareFindBox from './RareFindBox';
+function BookNowCards({shouldShowRareFind}) {
   return (
     <Card style={{borderRadius: '25px', paddingBottom: '50px',
-    paddingRight:'25px',paddingLeft:'25px',border:'none'}}>
+    paddingRight:'20px',paddingLeft:'10px',border:'none'}}>
       <Card.Body style={{}} >
        
         <div style={{display:'flex'}}>
@@ -40,16 +41,18 @@ function Cards() {
                   color:'#FFFFFF',border:'none',width:'90px',height:'30px'}}>Book now</button>
                 </div>
                 </div>
+                {shouldShowRareFind && (<RareFindBox/>)}
+
               </Card.Body>
             </Card>
           </Card.Body>
         </Card>
         </div>
-   
+
       </Card.Body>
     </Card>
 
   );
 }
 
-export default Cards;
+export default BookNowCards;
